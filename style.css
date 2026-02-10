@@ -1,0 +1,135 @@
+.topnav{
+    background-color: #ffffff;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+.topnav a{
+    position:relative;
+    top: -35px;
+    color: #000000;
+    padding: 30px;
+    font-size: 25px;
+}
+#home{
+    height: 780px;
+}
+#home #about h2{
+    font-size: 25px;
+    text-align: center;
+}
+#home #about p{
+    font-size: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+}
+#home #media img{
+    align-items: center;
+}
+#home #media h2{
+    font-size: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#home #media #social #instagram{
+    padding-left: 20px;
+}
+#home #media #social #tiktok{
+    padding-left: 20px;
+}
+#home #media #social #youtube{
+    padding-left: 20px;
+}
+#home #media #mnav{
+    display: flex;
+    justify-content: center;
+}
+.hera{
+    background-color: black;
+    background-size: cover;
+    height: 1000px;
+    margin-top: -60px;
+    margin-left: -10px;
+    margin-right: -10px;
+    text-align: center;
+}
+.hera h1{
+    position: relative;
+    top: 300px;
+    font-size: 85px;
+    color: #ffffff;
+}
+.hera h3{
+    position: relative;
+    top: 305px;
+    margin-top: -40px;
+    font-size: 50px;
+    color: #ffffff;
+}
+
+.topnav{
+    display: flex;
+}
+.topnav .textb button{
+    border-left-width: 3px;
+    border-right-width: 3px;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    margin-left: 10px;
+    margin-right: 5px;
+    margin-bottom: 50px;
+    margin-top: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    padding-right: 10px;
+    font-size: 40px;
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 0px;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+}
+.topnav button{
+    border: 0px;
+    margin-left: 10px;
+    margin-right: 5px;
+    margin-bottom: 50px;
+    margin-top: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    padding-right: 10px;
+    font-size: 40px;
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 0px;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+    visibility: visible;
+}
+
+.topnav button:hover{
+    background-color: gray;
+}
+
+.page{
+    display: none;
+}
+.page.active{
+    display: block;
+}
+
+.hidden{
+    display: none;
+}
+#home #media #social #instagram #posts #latest{
+    font-size: 25px;
+}
+
