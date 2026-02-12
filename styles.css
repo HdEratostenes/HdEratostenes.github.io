@@ -47,7 +47,7 @@
     justify-content: center;
 }
 .hera{
-    background-color: black;
+    background-color: #000000;
     background-size: cover;
     height: 1000px;
     margin-top: -60px;
@@ -131,5 +131,76 @@
 }
 #home #media #social #instagram #posts #latest{
     font-size: 25px;
+}
+
+#home #articles h2{
+    font-size: 25px;
+}
+#home #articles p{
+    font-size: 20px;
+}
+#imgfeed button{
+    font-size: 100px;
+    color: #000000;
+    background-color: rgba(237, 237, 237, 0.0);
+    border: 0px;
+    height: 675px;
+    width: 90px;
+}
+#home #media #instagram #posts #latest #imgfeed #imgfeedleft{
+    position: absolute;
+    font-size: 80px;
+    z-index: 10;
+}
+#home #media #instagram #posts #latest #imgfeed #imgfeedright{
+    position: absolute;
+    font-size: 80px;
+    z-index: 10;
+}
+#imgfeedleft{
+    left: 0;
+}
+#imgfeedright{
+    right: 0px;
+}
+#home #media #instagram #posts #latest button:hover{
+    background-color: rgba(237, 237, 237, 0.6);
+    cursor: grabbing;
+}
+#imgfeed{
+    position: relative; 
+    display: flex;
+    width: 540px;
+    flex-direction: column;
+    z-index: 100;
+}
+#imgs img{
+    height: 675px;
+    display: none;
+}
+#bottom a{
+    font-size: 20px;
+    color: #000000;
+    position: relative;
+    text-align: center;
+    display: inline-block;
+    top: -40px;
+    
+}
+#bottom{
+    width: 540px;
+    height: 100px;
+    border: 1px rgb(194, 194, 194) solid;
+
+}
+#bottom #pfp{
+    padding-top: 40px;
+}
+#imgs2 img{
+    height: 675px;
+    display: flex;
+}
+.show{
+    display: none;
 }
 
