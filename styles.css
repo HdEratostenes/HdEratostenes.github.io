@@ -28,6 +28,7 @@
     align-items: center;
 }
 #home #media h2{
+    font-family: 'Nunito';
     font-size: 50px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -56,12 +57,14 @@
     text-align: center;
 }
 .hera h1{
+    font-family: 'Nunito';
     position: relative;
     top: 300px;
     font-size: 85px;
     color: #ffffff;
 }
 .hera h3{
+    font-family: 'Nunito';
     position: relative;
     top: 305px;
     margin-top: -40px;
@@ -95,6 +98,7 @@
     justify-content: center;
 }
 .topnav button{
+    font-family: 'Nunito';
     border: 0px;
     margin-left: 10px;
     margin-right: 5px;
@@ -131,15 +135,19 @@
 }
 #home #media #social #instagram #posts #latest{
     font-size: 25px;
+    font-family: 'Nunito';
 }
 
 #home #articles h2{
     font-size: 25px;
+    font-family: 'Nunito';
 }
 #home #articles p{
     font-size: 20px;
+    font-family: 'Nunito';
 }
 #imgfeed button{
+    font-family: 'Nunito';
     font-size: 100px;
     color: #000000;
     background-color: rgba(237, 237, 237, 0.0);
@@ -148,11 +156,13 @@
     width: 90px;
 }
 #home #media #instagram #posts #latest #imgfeed #imgfeedleft{
+    font-family: 'Nunito';
     position: absolute;
     font-size: 80px;
     z-index: 10;
 }
 #home #media #instagram #posts #latest #imgfeed #imgfeedright{
+    font-family: 'Nunito';
     position: absolute;
     font-size: 80px;
     z-index: 10;
@@ -179,6 +189,7 @@
     display: none;
 }
 #bottom a{
+    font-family: 'Nunito';
     font-size: 20px;
     color: #000000;
     position: relative;
@@ -188,6 +199,7 @@
     
 }
 #videobottom{
+    font-family: 'Nunito';
     width: 325px;
     height: 100px;
     border: 1px rgb(194, 194, 194) solid;
