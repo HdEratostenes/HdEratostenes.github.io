@@ -1,54 +1,5 @@
-.topnav{
-    background-color: #ffffff;
-    margin-top: -10px;
-    margin-left: -10px;
-    margin-right: -10px;
-}
-.topnav a{
-    position:relative;
-    top: -35px;
-    color: #000000;
-    padding: 30px;
-    font-size: 25px;
-}
-#home{
-    height: 780px;
-}
-#home #about h2{
-    font-size: 25px;
-    text-align: center;
-}
-#home #about p{
-    font-size: 20px;
-    padding-left: 50px;
-    padding-right: 50px;
-    text-align: center;
-}
-#home #media img{
-    align-items: center;
-}
-#home #media h2{
-    font-family: 'Nunito';
-    font-size: 50px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-#home #media #social #instagram{
-    padding-left: 20px;
-}
-#home #media #social #tiktok{
-    padding-left: 20px;
-}
-#home #media #social #youtube{
-    padding-left: 20px;
-}
-#home #media #mnav{
-    display: flex;
-    justify-content: center;
-}
 .hera{
-    background-color: #000000;
+    background:linear-gradient(rgba(0, 0, 0, 0.7)), url(/images/cobach.jpg);
     background-size: cover;
     height: 1000px;
     margin-top: -60px;
@@ -71,9 +22,20 @@
     font-size: 50px;
     color: #ffffff;
 }
-
 .topnav{
+    background-color: #ffffff;
+    position: sticky;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
     display: flex;
+}
+.topnav a{
+    position: sticky;
+    top: -35px;
+    color: #000000;
+    padding: 30px;
+    font-size: 25px;
 }
 .topnav .textb button{
     border-left-width: 3px;
@@ -89,6 +51,7 @@
     padding-left: 15px;
     padding-right: 10px;
     font-size: 55px;
+    position: sticky;
     background-color: #ffffff;
     color: #000000;
     border-radius: 0px;
@@ -114,38 +77,114 @@
     border-radius: 0px;
     cursor: pointer;
     display: inline-block;
+    position: sticky;
     text-align: center;
     justify-content: center;
     visibility: visible;
 }
-
 .topnav button:hover{
     background-color: gray;
+}
+#home{
+    height: 780px;
+}
+#about h2{
+    font-size: 25px;
+    text-align: center;
+}
+#about p{
+    font-size: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+}
+
+#articles h2{
+    font-size: 25px;
+    font-family: 'Nunito';
+}
+
+#instagramTitle{
+    text-align: center;
+    font-size: 90px;
+    font-family: 'Nunito';
+}
+#instagram h4{
+    text-align: center;
+    font-size: 40px;
+}
+#instagramProfile{
+    text-align: center;
+    font-size: 30px;
+    color: #000000;
+}
+#tiktokTitle{
+    text-align: center;
+    font-size: 90px;
+    font-family: 'Nunito';
+}
+#tiktok h4{
+    text-align: center;
+    font-size: 40px;
+}
+#tiktokProfile{
+    text-align: center;
+    font-size: 30px;
+    color: #000000;
+}
+#youtubeTitle{
+    text-align: center;
+    font-size: 90px;
+    font-family: 'Nunito';
+}
+#youtubeProfile{
+    text-align: center;
+    font-size: 30px;
+    color: #000000;
+}
+#youtube h4{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Nunito';
+}
+
+#youtube{
+    padding-left: 20px;
 }
 
 .page{
     display: none;
 }
+
 .page.active{
     display: block;
+}
+.show{
+    display: none;
 }
 
 .hidden{
     display: none;
 }
-#home #media #social #instagram #posts #latest{
+
+#latest{
     font-size: 25px;
     font-family: 'Nunito';
 }
 
-#home #articles h2{
-    font-size: 25px;
-    font-family: 'Nunito';
-}
-#home #articles p{
+
+#articles p{
     font-size: 20px;
     font-family: 'Nunito';
 }
+
+#imgfeed{
+    position: relative; 
+    display: inline-block;
+    width: 540px;
+    z-index: 100;
+}
+
 #imgfeed button{
     font-family: 'Nunito';
     font-size: 100px;
@@ -155,79 +194,58 @@
     height: 675px;
     width: 90px;
 }
-#home #media #instagram #posts #latest #imgfeed #imgfeedleft{
-    font-family: 'Nunito';
-    position: absolute;
-    font-size: 80px;
-    z-index: 10;
-}
-#home #media #instagram #posts #latest #imgfeed #imgfeedright{
-    font-family: 'Nunito';
-    position: absolute;
-    font-size: 80px;
-    z-index: 10;
-}
 #imgfeedleft{
+    font-family: 'Nunito';
+    position: absolute;
+    font-size: 80px;
+    z-index: 10;
     left: 0;
 }
 #imgfeedright{
-    right: 0px;
+    font-family: 'Nunito';
+    position: absolute;
+    font-size: 80px;
+    z-index: 10;
+    right: 0;
 }
-#home #media #instagram #posts #latest button:hover{
+
+#latest button:hover{
     background-color: rgba(237, 237, 237, 0.6);
     cursor: grabbing;
 }
-#imgfeed{
-    position: relative; 
-    display: flex;
-    width: 540px;
-    flex-direction: column;
-    z-index: 100;
-}
+
 #imgs img{
     height: 675px;
     display: none;
 }
-#bottom a{
-    font-family: 'Nunito';
-    font-size: 20px;
-    color: #000000;
-    position: relative;
-    text-align: center;
+#botimg{
     display: inline-block;
-    top: -40px;
-    
 }
-#videobottom{
-    font-family: 'Nunito';
-    width: 325px;
-    height: 100px;
-    border: 1px rgb(194, 194, 194) solid;
-}
-#videobottom a{
-    font-size: 20px;
-    color: #000000;
-    position: relative;
-    text-align: center;
+#info{
     display: inline-block;
-    top: -40px;
+    color: #000000;
 }
+
+
 #bottom{
+    display: flex;
     width: 540px;
     height: 100px;
     border: 1px rgb(194, 194, 194) solid;
 
 }
-#bottom #pfp{
-    padding-top: 40px;
+
+#imgfeed2{
+    position: relative; 
+    display: inline-block;
+    width: 540px;
+    z-index: 100;
 }
 #imgs2 img{
     height: 675px;
     display: flex;
 }
-.show{
-    display: none;
-}
+
 #imgfeed2 button{
     font-size: 100px;
     color: #000000;
@@ -240,32 +258,25 @@
     background-color: rgba(237, 237, 237, 0.6);
     cursor: grabbing;
 }
-#imgfeed2{
-    position: relative; 
-    display: inline-block;
-    width: 540px;
-    flex-direction: column;
-    z-index: 100;
-}
+
 #imgs2 img{
     height: 675px;
     display: none;
 }
 #bottom2{
+    display: flex;
     width: 540px;
     height: 100px;
     border: 1px rgb(194, 194, 194) solid;
+
 }
-#bottom2 a{
-    font-size: 20px;
-    color: #000000;
-    position: relative;
-    text-align: center;
+#info2{
     display: inline-block;
-    top: -40px;
+    color: #000000;
+    
 }
-#bottom #pfp2{
-    padding-top: 40px;
+#botimg2{
+    display:inline-block;
 }
 #imgfeedleft2{
     position: absolute;
@@ -280,6 +291,101 @@
     z-index: 10;
     right: 0px;
 }
+
+#imgfeed3{
+    position: relative; 
+    display: inline-block;
+    width: 540px;
+    z-index: 100;
+}
+#imgs3 img{
+    height: 675px;
+    display: flex;
+}
+
+#imgfeed3 button{
+    font-size: 100px;
+    color: #000000;
+    background-color: rgba(237, 237, 237, 0.0);
+    border: 0px;
+    height: 675px;
+    width: 90px;
+}
+#imgfeed3 button:hover{
+    background-color: rgba(237, 237, 237, 0.6);
+    cursor: grabbing;
+}
+
+#imgs3 img{
+    height: 675px;
+    display: none;
+}
+#bottom3{
+    display: flex;
+    width: 540px;
+    height: 100px;
+    border: 1px rgb(194, 194, 194) solid;
+
+}
+#info3{
+    display: inline-block;
+    color: #000000;
+    
+}
+#botimg3{
+    display:inline-block;
+}
+#imgfeedleft3{
+    position: absolute;
+    font-size: 80px;
+    z-index: 10;
+    left: 0px;
+
+}
+#imgfeedright3{
+    position: absolute;
+    font-size: 80px;
+    z-index: 10;
+    right: 0px;
+}
+
+#videofeed{
+    display:inline-block;
+}
+#videofeed2{
+    display: inline-block;
+}
+#videobottom{
+    display:flex;
+    font-family: 'Nunito';
+    width: 325px;
+    height: 100px;
+    border: 1px rgb(194, 194, 194) solid;
+}
+#videoinfo{
+    padding-top: 10px;
+    font-size: 20px;
+    color: #000000
+}
+
+#videobottom2{
+    display: flex;
+    font-family: 'Nunito';
+    width: 325px;
+    height: 100px;
+    border: 1px rgb(194, 194, 194) solid;
+}
+#videoinfo2{
+    padding-top: 10px;
+    font-size: 20px;
+    color: #000000
+}
+
+
+
+
+
+
 
 
 
