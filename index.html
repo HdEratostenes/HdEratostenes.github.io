@@ -1,6 +1,9 @@
 <!DOCTYPE html>
     <html>
     <head>
+        <meta charset="UTF-8">
+        <link rel="icon" type="image/png" href="/images/logo proyecto.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel = "stylesheet" type = "text/css" href = "styles.css"/>
         <script src="fn.js"></script>
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -9,7 +12,7 @@
         <title>Hijos de Eratóstenes</title>
     </head>
     <body>
-        <div class="hera">
+        <div onmousewheel="slideDownMain()" class="hera">
             <h1 id="pageTitle"><strong></strong></h1>
             <h3 id="pageSubtitle"></h3>
         </div>
@@ -17,24 +20,28 @@
             <!--<img src="/images/logo proyecto.png" width="100px" height="100px"/>-->
             <button type="button" onclick="menufun()" id="menutrigger"><img src="images/menu.png" width="40px" height="35px"></button>
             <div class="textb" id="textbuttons">
-                <button onclick="showPage('articles')" id="menutrigger"><strong>Artículos</strong></button>
                 <button onclick="showPage('about')" class="active2"><strong>Acerca de</strong></button>
+                <button onclick="showPage('articles')" id="menutrigger"><strong>Artículos</strong></button>
                 <button onclick="showPage('media')" class="active2"><strong>Media</strong></button>
             </div>
             
         </div>
         <div id="home">
             <div id="about" class="page"> 
-                <h2> qnes somos? </h2>
-                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sed nisi vulputate, 
-                uctus tellus placerat, maximus nulla. Aliquam quis maximus ipsum. Aliquam vestibulum odio 
-                ac purus iaculis, vehicula imperdiet leo aliquam. Praesent eu ex orci. Etiam vitae 
-                facilisis nisi. Curabitur at porta ipsum. Integer laoreet feugiat est, quis 
-                pellentesque eros dignissim non. Nunc sit amet efficitur lectus. Nullam porttitor, 
-                leo vel faucibus consectetur, purus sem venenatis nibh, quis tempor magna urna sit amet 
-                lorem. Mauris volutpat, turpis ac eleifend lacinia, justo risus aliquam libero, in 
-                feugiat ante nisl ac ligula. Nulla purus eros, ornare ut mattis semper, fringilla in 
-                est. Integer at libero in arcu molestie faucibus id vel ex. </p>
+                <h2><strong>¿Qué es esta página?</strong></h2>
+                <p> ¡Bienvenid@ a la página web de Hijos de Eratóstenes!
+                Somos un grupo de estudiantes del COBACH 28 del estado de San Luis Potosí, México. Nos encontramos realizando
+                un proyecto para la capacitación de TICS (Tecnologías de la Información y la Comunicación) que consiste en la
+                creación de contenido educativo sobre geografía, teniendo este mismo características como: la atractividad visual,
+                un fácil entendimiento, la presencia de humor referente a las tendencias actuales de las redes sociales, el uso del inglés
+                y el español en conjunto, así como el dinamismo. <br><br>
+                Estaremos publicando en Instagram, TikTok y YouTube, cada una de estas plataformas mostrará un diferente formato
+                con respecto al material educativo, es decir, carruseles de imágenes, videos cortos y podcast.
+                Como podrás darte cuenta, la presente página cuenta con 3 secciones diferentes: artículos, acerca de y media. Ahora te
+                encuentras en acerca de. Las otras dos páginas presentes cuentan con la información recabada para la creación de nuestro
+                material, así como las más recientes publicaciones referentes a cada una de nuestras plataformas, es decir, la sección de
+                artículos y la sección de media, respectivamente.
+                ¡Esperemos que disfrutes de tu estancia en nuestra página web!</p>
             </div>
             <div id="media" class="page">
                 <div id="social">
@@ -148,4 +155,5 @@
         </div>
     </body>
     </html>
+
 
