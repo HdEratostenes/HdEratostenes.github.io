@@ -1,3 +1,9 @@
+function SelectAbout(){
+    document.getElementById("about").classList.add('active');
+}
+document.addEventListener("DOMContentLoaded", function() {
+    SelectAbout();
+});
 function showPage(pageId){
     document.querySelectorAll('.page').forEach(page =>{
         page.classList.remove('active');
