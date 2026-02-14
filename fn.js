@@ -1,9 +1,11 @@
+//this function redirects the visitor directly to the about page
 function SelectAbout(){
     document.getElementById("about").classList.add('active');
 }
 document.addEventListener("DOMContentLoaded", function() {
     SelectAbout();
 });
+//upon selecting a page on the .topnav class, the others are hidden
 function showPage(pageId){
     document.querySelectorAll('.page').forEach(page =>{
         page.classList.remove('active');
@@ -11,11 +13,14 @@ function showPage(pageId){
     document.getElementById(pageId).classList.add('active');
     
 }
+//this function hides all other buttons of menu when the menu button is clicked
 function menufun(){
     const buttons = document.getElementById("textbuttons");
     buttons.classList.toggle("hidden");
 }
 
+//typingeffectand typingeffectbottom both create typing effects for
+// the heading pieces of text in the website
 var index = 0;
 var cuchao = 150;
 var text = "Hijos de Eratóstenes";
@@ -60,6 +65,8 @@ document.addEventListener("DOMContentLoaded", function() {
     typingeffectBottom();
 });
 
+//the following three functions work as an image carousel for three sets of images
+// i was too lazy to implement one that englobed all carousels lmao
 function instagramImg(inst){
     const img = document.querySelectorAll(
         "#imgs img"
@@ -129,4 +136,6 @@ function instagramImg3(inst){
 
     }
 }
+
+
 
