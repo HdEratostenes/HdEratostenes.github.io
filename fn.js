@@ -9,6 +9,51 @@ function menufun(){
     const buttons = document.getElementById("textbuttons");
     buttons.classList.toggle("hidden");
 }
+
+var index = 0;
+var cuchao = 150;
+var text = "Hijos de Eratóstenes";
+
+function typingeffect(){
+
+    if(index < text.length){
+        document.getElementById("pageTitle").innerHTML += text.charAt(index);
+        index++;
+        setTimeout(typingeffect, cuchao);
+    }else{
+        setTimeout(function(){
+            document.getElementById("pageTitle").innerHTML = "";
+            index = 0;
+            typingeffect();
+        }, 4000);
+    }
+}
+document.addEventListener("DOMContentLoaded", function() {
+    typingeffect();
+});
+
+var index2 = 0;
+var cuchao2 = 350;
+var text2 = "COBACH 28";
+
+function typingeffectBottom(){
+
+    if(index2 < text2.length){
+        document.getElementById("pageSubtitle").innerHTML += text2.charAt(index2);
+        index2++;
+        setTimeout(typingeffectBottom, cuchao2);
+    }else{
+        setTimeout(function(){
+            document.getElementById("pageSubtitle").innerHTML = "";
+            index2 = 0;
+            typingeffectBottom();
+        }, 4000);
+    }
+}
+document.addEventListener("DOMContentLoaded", function() {
+    typingeffectBottom();
+});
+
 function instagramImg(inst){
     const img = document.querySelectorAll(
         "#imgs img"
@@ -55,3 +100,27 @@ function instagramImg2(inst){
 
     }
 }
+function instagramImg3(inst){
+    const img = document.querySelectorAll(
+        "#imgs3 img"
+    );
+    var len = img.length;
+    var ind = 0;
+    for(let i = 0; i < len; i++){
+        if(window.getComputedStyle(img[i]).display ==='block'){
+            ind = i;
+            break;
+        }
+        console.log(window.getComputedStyle(img[i]).display);
+    }
+    if(inst === 1 && ind !== len-1){
+        (img[ind+1]).style.display = 'block';
+        (img[ind]).style.display = 'none';
+        
+    }else if(inst === -1 && ind !== 0){
+        (img[ind-1]).style.display = 'block';
+        (img[ind]).style.display = 'none';
+
+    }
+}
+
