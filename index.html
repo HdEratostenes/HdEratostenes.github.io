@@ -12,7 +12,7 @@
         <title>Hijos de Eratóstenes</title>
     </head>
     <body>
-        <div onmousewheel="slideDownMain()" class="hera">
+        <div class="hera">
             <h1 id="pageTitle"><strong></strong></h1>
             <h3 id="pageSubtitle"></h3>
         </div>
@@ -20,9 +20,10 @@
             <!--<img src="/images/logo proyecto.png" width="100px" height="100px"/>-->
             <button type="button" onclick="menufun()" id="menutrigger"><img src="images/menu.png" width="40px" height="35px"></button>
             <div class="textb" id="textbuttons">
-                <button onclick="showPage('about')" class="active2"><strong>Acerca de</strong></button>
-                <button onclick="showPage('articles')" id="menutrigger"><strong>Artículos</strong></button>
-                <button onclick="showPage('media')" class="active2"><strong>Media</strong></button>
+                <button id ="aboutbutton" onclick="showPage('about')" class="active2"><strong>Acerca de</strong></button>
+                <button id="mediabutton" onclick="showPage('media')" class="active2"><strong>Media</strong></button>
+                <button id="articlesbutton" onclick="showPage('articles')" id="menutrigger"><strong>Artículos</strong></button>
+
             </div>
             
         </div>
