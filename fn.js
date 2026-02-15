@@ -15,8 +15,40 @@ function showPage(pageId){
 }
 //this function hides all other buttons of menu when the menu button is clicked
 function menufun(){
-    const buttons = document.getElementById("textbuttons");
-    buttons.classList.toggle("hidden");
+    const aboutBT = document.getElementById('aboutbutton');
+    const articlesBT = document.getElementById('articlesbutton');
+    const mediaBT = document.getElementById('mediabutton');
+    if(getComputedStyle(aboutBT).visibility !== 'hidden'){
+       hideAnimations(aboutBT, 30);
+       hideAnimations(articlesBT, 5);
+       hideAnimations(mediaBT, 15);
+    }else{
+        showAnimations(aboutBT, 30);
+        showAnimations(articlesBT, 5);
+        showAnimations(mediaBT, 15);
+    }
+    function hideAnimations(buttonItem, speed){
+        let pos = 0;
+        const inter = setInterval(() => {
+            pos += 10;
+            buttonItem.style.right = pos + 'px';
+            if(pos >= 50){
+                buttonItem.style.visibility = 'hidden';
+                clearInterval(inter);
+            }
+        },speed);
+    }
+    function showAnimations(buttonItem2, speed2){
+        buttonItem2.style.visibility = 'visible';
+        let pos2 = 50;
+        const inter2 = setInterval(() => {
+            pos2 -= 10;
+            buttonItem2.style.right = pos2 + 'px';
+            if(pos2 <= 0){
+                clearInterval(inter2);
+            }
+        },speed2)
+    }
 }
 
 //typingeffectand typingeffectbottom both create typing effects for
@@ -136,6 +168,9 @@ function instagramImg3(inst){
 
     }
 }
+
+
+
 
 
 
