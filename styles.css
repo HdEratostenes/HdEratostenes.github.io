@@ -385,6 +385,79 @@
     color: #000000
 }
 
+#articles h2{
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Nunito';
+}
+#institucionesGeografia h3{
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Nunito';
+}
+#institucionesGeografia p{
+    font-size: 16px;
+    text-align: left;
+    font-family: 'Nunito';
+}
+#EN_institucionesGeografia h3{
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Nunito';
+}
+#EN_institucionesGeografia p{
+    font-size: 16px;
+    text-align: left;
+    font-family: 'Nunito';
+}
+#demografia h3{ 
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Nunito';
+}
+#demografia p{ 
+    font-size: 16px;
+    text-align: left;
+    font-family: 'Nunito';
+}
+#en_demografia h3{ 
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Nunito';
+}
+#en_demografia p{ 
+    font-size: 16px;
+    text-align: left;
+    font-family: 'Nunito';
+}
+#dinamicaPoblacional h3{ 
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Nunito';
+}
+#dinamicaPoblacional p{ 
+    font-size: 16px;
+    text-align: left;
+    font-family: 'Nunito';
+}
+#EN_dinamicaPoblacional h3{ 
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Nunito';
+}
+#EN_dinamicaPoblacional p{ 
+    font-size: 16px;
+    text-align: left;
+    font-family: 'Nunito';
+}
+
+
+
+
+
+
+
+
 
 
 
