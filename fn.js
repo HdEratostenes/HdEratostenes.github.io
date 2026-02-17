@@ -1,3 +1,25 @@
+let currentLanguages = ["spanish", "spanish", "spanish"];
+let locations = ["institucionesGeografia", "demografia", "dinamicaPoblacional"];
+
+function changeLanguage(location) {
+    const artPageVar = document.querySelector('.artpage');
+
+    let spanishElement = document.getElementById(locations[location]);
+    let englishElement = document.getElementById("EN_" + locations[location]);
+
+    if (currentLanguages[location] === "spanish") {
+        spanishElement.classList.remove('active');
+        englishElement.classList.add('active');
+        currentLanguages[location] = "english"; 
+    } else {
+        spanishElement.classList.add('active');
+        englishElement.classList.remove('active');
+        currentLanguages[location] = "spanish"; 
+    }
+}
+
+
+
 //this function redirects the visitor directly to the about page
 function SelectAbout(){
     document.getElementById("about").classList.add('active');
@@ -168,7 +190,6 @@ function instagramImg3(inst){
 
     }
 }
-
 
 
 
