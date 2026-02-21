@@ -1,5 +1,5 @@
 .hera{
-    background:linear-gradient(rgba(0, 0, 0, 0.7)), url(/images/cobach.jpg);
+    background:linear-gradient(rgba(0, 0, 0, 0.7)), url(/images/changos.png);
     background-size: cover;
     height: 1000px;
     margin-top: -60px;
@@ -187,7 +187,7 @@
 
 #imgfeed{
     position: relative; 
-    display: inline-block;
+    display:inline-block;
     width: 540px;
     z-index: 100;
 }
@@ -243,15 +243,12 @@
 }
 
 #imgfeed2{
-    position: relative; 
-    display: inline-block;
+    position: relative;
+    display:inline-block;
     width: 540px;
     z-index: 100;
 }
-#imgs2 img{
-    height: 675px;
-    display: flex;
-}
+
 
 #imgfeed2 button{
     font-size: 100px;
@@ -305,10 +302,7 @@
     width: 540px;
     z-index: 100;
 }
-#imgs3 img{
-    height: 675px;
-    display: flex;
-}
+
 
 #imgfeed3 button{
     font-size: 100px;
@@ -355,12 +349,183 @@
     z-index: 10;
     right: 0px;
 }
+#imgfeed4{
+    position: relative; 
+    display: inline-block;
+    width: 540px;
+    z-index: 100;
+}
+
+#imgfeed4 button{
+    font-size: 100px;
+    color: #000000;
+    background-color: rgba(237, 237, 237, 0.0);
+    border: 0px;
+    height: 675px;
+    width: 90px;
+}
+#imgfeed4 button:hover{
+    background-color: rgba(237, 237, 237, 0.6);
+    cursor: grabbing;
+}
+
+#imgs4 img{
+    height: 675px;
+    display: none;
+}
+#bottom4{
+    display: flex;
+    width: 540px;
+    height: 100px;
+    border: 1px rgb(194, 194, 194) solid;
+
+}
+#info4{
+    display: inline-block;
+    color: #000000;
+    
+}
+#botimg4{
+    display:inline-block;
+}
+#imgfeedleft4{
+    position: absolute;
+    font-size: 80px;
+    z-index: 10;
+    left: 0px;
+
+}
+#imgfeedright4{
+    position: absolute;
+    font-size: 80px;
+    z-index: 10;
+    right: 0px;
+}
+#imgfeed5{
+    position: relative; 
+    display: inline-block;
+    width: 540px;
+    z-index: 100;
+}
+
+
+#imgfeed5 button{
+    font-size: 100px;
+    color: #000000;
+    background-color: rgba(237, 237, 237, 0.0);
+    border: 0px;
+    height: 675px;
+    width: 90px;
+}
+#imgfeed5 button:hover{
+    background-color: rgba(237, 237, 237, 0.6);
+    cursor: grabbing;
+}
+
+#imgs5 img{
+    height: 675px;
+    display: none;
+}
+#bottom5{
+    display: flex;
+    width: 540px;
+    height: 100px;
+    border: 1px rgb(194, 194, 194) solid;
+
+}
+#info5{
+    display: inline-block;
+    color: #000000;
+    
+}
+#botimg5{
+    display:inline-block;
+}
+#imgfeedleft5{
+    position: absolute;
+    font-size: 80px;
+    z-index: 10;
+    left: 0px;
+
+}
+#imgfeedright5{
+    position: absolute;
+    font-size: 80px;
+    z-index: 10;
+    right: 0px;
+}
+
+#imgfeed6{
+    position: relative; 
+    display: inline-block;
+    width: 540px;
+    z-index: 100;
+}
+
+#imgfeed6 button{
+    font-size: 100px;
+    color: #000000;
+    background-color: rgba(237, 237, 237, 0.0);
+    border: 0px;
+    height: 675px;
+    width: 90px;
+}
+#imgfeed6 button:hover{
+    background-color: rgba(237, 237, 237, 0.6);
+    cursor: grabbing;
+}
+
+#imgs6 img{
+    height: 675px;
+    display: none;
+}
+#bottom6{
+    display: flex;
+    width: 540px;
+    height: 100px;
+    border: 1px rgb(194, 194, 194) solid;
+
+}
+#info6{
+    display: inline-block;
+    color: #000000;
+    
+}
+#botimg6{
+    display:inline-block;
+}
+#imgfeedleft6{
+    position: absolute;
+    font-size: 80px;
+    z-index: 10;
+    left: 0px;
+
+}
+#imgfeedright6{
+    position: absolute;
+    font-size: 80px;
+    z-index: 10;
+    right: 0px;
+}
+
 
 #videofeed{
     display:inline-block;
 }
 #videofeed2{
     display: inline-block;
+}
+#piramide{
+    display: inline-block;
+}
+#EN_piramide{
+    display: inline-block;
+}
+#EN_transicion{
+    display: inline-block;
+}
+#transicion{
+    display: inline-block
 }
 #videobottom{
     display:flex;
@@ -388,6 +553,55 @@
     color: #000000
 }
 
+#videobottom3{
+    display: flex;
+    font-family: 'Nunito';
+    width: 325px;
+    height: 100px;
+    border: 1px rgb(194, 194, 194) solid;
+}
+#videoinfo3{
+    padding-top: 10px;
+    font-size: 20px;
+    color: #000000
+}
+#videobottom4{
+    display: flex;
+    font-family: 'Nunito';
+    width: 325px;
+    height: 100px;
+    border: 1px rgb(194, 194, 194) solid;
+}
+#videoinfo4{
+    padding-top: 10px;
+    font-size: 20px;
+    color: #000000
+}
+#videobottom5{
+    display: flex;
+    font-family: 'Nunito';
+    width: 325px;
+    height: 100px;
+    border: 1px rgb(194, 194, 194) solid;
+}
+#videoinfo5{
+    padding-top: 10px;
+    font-size: 20px;
+    color: #000000
+}
+
+#videobottom6{
+    display: flex;
+    font-family: 'Nunito';
+    width: 325px;
+    height: 100px;
+    border: 1px rgb(194, 194, 194) solid;
+}
+#videoinfo6{
+    padding-top: 10px;
+    font-size: 20px;
+    color: #000000
+}
 #articles h2{
     font-size: 50px;
     text-align: center;
@@ -546,6 +760,43 @@
 .fact{
     float: right;
 }
+
+#podcastMetodos img{
+    display: flex;
+}
+
+#podcastMetodos audio{
+    display: flex;
+}
+#podcastBottom{
+    width: 300px;
+    height: 100px;
+    border: 1px rgb(194, 194, 194) solid;
+    display: flex;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+}
+#podcastBottom h3{
+    font-family: "Nunito";
+    color: #000000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
