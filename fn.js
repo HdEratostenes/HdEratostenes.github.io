@@ -191,6 +191,81 @@ function instagramImg3(inst){
     }
 }
 
+function instagramImg4(inst){
+    const img = document.querySelectorAll(
+        "#imgs4 img"
+    );
+    var len = img.length;
+    var ind = 0;
+    for(let i = 0; i < len; i++){
+        if(window.getComputedStyle(img[i]).display ==='block'){
+            ind = i;
+            break;
+        }
+        console.log(window.getComputedStyle(img[i]).display);
+    }
+    if(inst === 1 && ind !== len-1){
+        (img[ind+1]).style.display = 'block';
+        (img[ind]).style.display = 'none';
+        
+    }else if(inst === -1 && ind !== 0){
+        (img[ind-1]).style.display = 'block';
+        (img[ind]).style.display = 'none';
+
+    }
+
+}
+
+function instagramImg5(inst){
+    const img = document.querySelectorAll(
+        "#imgs5 img"
+    );
+    var len = img.length;
+    var ind = 0;
+    for(let i = 0; i < len; i++){
+        if(window.getComputedStyle(img[i]).display ==='block'){
+            ind = i;
+            break;
+        }
+        console.log(window.getComputedStyle(img[i]).display);
+    }
+    if(inst === 1 && ind !== len-1){
+        (img[ind+1]).style.display = 'block';
+        (img[ind]).style.display = 'none';
+        
+    }else if(inst === -1 && ind !== 0){
+        (img[ind-1]).style.display = 'block';
+        (img[ind]).style.display = 'none';
+
+    }
+}
+function instagramImg6(inst){
+    const img = document.querySelectorAll(
+        "#imgs6 img"
+    );
+    var len = img.length;
+    var ind = 0;
+    for(let i = 0; i < len; i++){
+        if(window.getComputedStyle(img[i]).display ==='block'){
+            ind = i;
+            break;
+        }
+        console.log(window.getComputedStyle(img[i]).display);
+    }
+    if(inst === 1 && ind !== len-1){
+        (img[ind+1]).style.display = 'block';
+        (img[ind]).style.display = 'none';
+        
+    }else if(inst === -1 && ind !== 0){
+        (img[ind-1]).style.display = 'block';
+        (img[ind]).style.display = 'none';
+
+    }
+}
+
+
+
+
 
 
 
