@@ -6,7 +6,6 @@
     margin-left: -10px;
     margin-right: -10px;
     text-align: center;
-    scroll-behavior: smooth;
 }
 .hera h1{
     font-family: 'Nunito';
@@ -83,7 +82,7 @@
     justify-content: center;
     visibility: visible;
 }
-#textbuttons button:hover{
+.textb button:hover{
     background-color: gray;
 }
 #home{
@@ -165,7 +164,28 @@
 .artpage.active{
     display: block;
 }
+/*language buttons hide and show */
+#lang1{
+    display: none;
+    position: relative;
+    align-items: right;
+}
+#lang2{
+    display: none;
+}
+#lang3{
+    display: none;
+}
 
+#return0{
+    display: none;
+}
+#return1{
+    display: none;
+}
+#return2{
+    display: none;
+}
 .show{
     display: none;
 }
@@ -508,7 +528,18 @@
     right: 0px;
 }
 
+/*articles navigation*/
 
+.artNav{
+    display: inline-block;
+    position: relative;
+}
+.artnavbottom{
+    width: 300px;
+    height: 100px;
+    border: 1px rgb(194, 194, 194) solid;
+    position: absolute;
+}
 #videofeed{
     display:inline-block;
 }
@@ -525,7 +556,13 @@
     display: inline-block;
 }
 #transicion{
-    display: inline-block
+    display: inline-block;
+}
+#solyeq{
+    display: inline-block;
+}
+#sclas{
+    display: inline-block;
 }
 #videobottom{
     display:flex;
@@ -552,8 +589,20 @@
     font-size: 20px;
     color: #000000
 }
+#videoinfo7{
+    padding-top: 10px;
+    font-size: 20px;
+    color: #000000
+}
 
 #videobottom3{
+    display: flex;
+    font-family: 'Nunito';
+    width: 325px;
+    height: 100px;
+    border: 1px rgb(194, 194, 194) solid;
+}
+#videobottom7{
     display: flex;
     font-family: 'Nunito';
     width: 325px;
@@ -577,7 +626,26 @@
     font-size: 20px;
     color: #000000
 }
+#videoinfo8{
+    padding-top: 10px;
+    font-size: 20px;
+    color: #000000
+}
 #videobottom5{
+    display: flex;
+    font-family: 'Nunito';
+    width: 325px;
+    height: 100px;
+    border: 1px rgb(194, 194, 194) solid;
+}
+#videobottom7{
+    display: flex;
+    font-family: 'Nunito';
+    width: 325px;
+    height: 100px;
+    border: 1px rgb(194, 194, 194) solid;
+}
+#videobottom8{
     display: flex;
     font-family: 'Nunito';
     width: 325px;
@@ -608,121 +676,118 @@
     font-family: 'Nunito';
 }
 #institucionesGeografia h3{
-    font-size: 30px;
-    text-align: center;
+    font-size: 55px;
     font-family: 'Nunito';
+    text-align:center;
 }
 #institucionesGeografia p{
-    margin-left: 50px;
-    margin-right: 50px;
-    font-size: 18px;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-size: 25px;
     text-align: left;
     font-family: 'Nunito';
 }
 #EN_institucionesGeografia h3{
-    font-size: 30px;
+    font-size: 55px;
     text-align: center;
     font-family: 'Nunito';
 }
 #EN_institucionesGeografia p{
-    margin-left: 50px;
-    margin-right: 50px;
-    font-size: 18px;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-size: 25px;
     text-align: left;
     font-family: 'Nunito';
 }
 #demografia h3{ 
-    font-size: 30px;
+    font-size: 55px;
     text-align: center;
     font-family: 'Nunito';
 }
 #demografia p{
-    margin-left: 50px;
-    margin-right: 50px;
-    font-size: 18px;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-size: 25px;
     text-align: left;
     font-family: 'Nunito';
 }
 #EN_demografia h3{ 
-    font-size: 30px;
+    font-size: 55px;
     text-align: center;
     font-family: 'Nunito';
 }
 #EN_demografia p{ 
-    margin-left: 50px;
-    margin-right: 50px;
-    font-size: 18px;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-size: 25px;
     text-align: left;
     font-family: 'Nunito';
 }
 #dinamicaPoblacional h3{ 
-    font-size: 30px;
+    font-size: 55px;
     text-align: center;
     font-family: 'Nunito';
 }
 #dinamicaPoblacional p{ 
-    margin-left: 50px;
-    margin-right: 50px;
-    font-size: 18px;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-size: 25px;
     text-align: left;
     font-family: 'Nunito';
 }
 #EN_dinamicaPoblacional h3{ 
-    font-size: 30px;
+    font-size: 55px;
     text-align: center;
     font-family: 'Nunito';
 }
 #EN_dinamicaPoblacional p{ 
-    margin-left: 50px;
-    margin-right: 50px;
-    font-size: 18px;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-size: 25px;
     text-align: left;
     font-family: 'Nunito';
 }
 
 #institucionesGeografia h4{
     font-family: 'Nunito';
-    font-size: 20px;
+    font-size: 40px;
     text-align: left;
-    margin-left: 50px;
+    margin-left: 200px;
 }
 #EN_institucionesGeografia h4{
     font-family: 'Nunito';
-    font-size: 20px;
+    font-size: 40px;
     text-align: left;
-    margin-left: 50px;
+    margin-left: 200px;
 }
 #demografia h4{
     font-family: 'Nunito';
-    font-size: 20px;
+    font-size: 40px;
     text-align: left;
-    margin-left: 50px;
+    margin-left: 200px;
 }
 
 #EN_demografia h4{
     font-family: 'Nunito';
-    font-size: 20px;
+    font-size: 40px;
     text-align: left;
-    margin-left: 50px;
+    margin-left: 200px;
 }
 #dinamicaPoblacional h4{
     font-family: 'Nunito';
-    font-size: 20px;
+    font-size: 40px;
     text-align: left;
-    margin-left: 50px;
+    margin-left: 200px;
 }
 #EN_dinamicaPoblacional h4{
     font-family: 'Nunito';
-    font-size: 20px;
+    font-size: 40px;
     text-align: left;
-    margin-left: 50px;
+    margin-left: 200px;
 }
 
 #articles button{
     font-family: 'Nunito';
-    border-left: 1px;
-    border-right: 1px;
-    border-color: #000000;
     font-size: 20px;
     color: #000000;
     background-color: #ffffff;
@@ -732,7 +797,17 @@
     cursor: grabbing;
     background-color: rgb(128, 128, 128);
 }
-
+.nav{
+    background-color: rgba(255, 255, 255, 10);
+    
+    padding-bottom: 20px;
+    border: 0px;
+}
+.nav{
+    font-size: 20px;
+    color: red;
+   
+}
 .inegi{
     float: right;
 }
@@ -813,6 +888,42 @@
   }
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
