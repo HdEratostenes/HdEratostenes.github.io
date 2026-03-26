@@ -1,3 +1,51 @@
+function back(ind){
+    let rbtns = ["return0", "return1", "return2"];
+    let locations = ["institucionesGeografia", "demografia", "dinamicaPoblacional"];
+    let langbtns = ["lang1", "lang2", "lang3"];
+    document.getElementById(langbtns[ind]).style.display = 'none';
+    document.getElementById(rbtns[ind]).style.display = 'none';
+    const t = document.getElementById(locations[ind]);
+    if(t.classList.contains('active')){
+        t.classList.remove('active');
+    }else{
+        let append = "EN_" + locations[ind];
+        document.getElementById(append).classList.remove('active');
+    }
+    document.querySelectorAll('.artNav').forEach(el => {
+        el.style.display = 'inline-block';
+    });
+    
+
+
+}
+function artselect(ind){
+    let locations = ["institucionesGeografia", "demografia", "dinamicaPoblacional"];
+    let langbtns = ["lang1", "lang2", "lang3"];
+    let rbtns = ["return0", "return1", "return2"];
+    let arts = ["art1", "art2", "art3"];
+
+    document.getElementById(rbtns[ind]).style.display = ('block');
+    document.getElementById(locations[ind]).classList.add('active');
+    document.getElementById(langbtns[ind]).style.display = 'block';
+    let len = locations.length
+    for(let i = 0; i < len; i++){
+        var t = document.getElementById(locations[i]);
+        if(t.classList.contains('active') && i != ind){
+            t.classList.remove('active');
+        }
+    }
+    for(let i = 0; i < len; i++){
+        var tt = document.getElementById(langbtns[i]);
+        if(window.getComputedStyle(tt).display === 'block' && i != ind){
+            tt.style.display = 'none';
+        }
+    }
+    document.querySelectorAll('.artNav').forEach(el => {
+        el.style.display = 'none';
+    });
+
+    
+}
 let currentLanguages = ["spanish", "spanish", "spanish"];
 let locations = ["institucionesGeografia", "demografia", "dinamicaPoblacional"];
 
@@ -32,7 +80,15 @@ function showPage(pageId){
     document.querySelectorAll('.page').forEach(page =>{
         page.classList.remove('active');
     });
-    document.getElementById(pageId).classList.add('active');
+    const pageToManip = document.getElementById(pageId);
+    pageToManip.classList.add('active');
+    requestAnimationFrame(() => {
+    window.scrollTo({
+        top: 1008.75,
+        left: 0,
+        behavior: "smooth"
+    });
+});
     
 }
 //this function hides all other buttons of menu when the menu button is clicked
@@ -262,6 +318,12 @@ function instagramImg6(inst){
 
     }
 }
+
+
+
+
+
+
 
 
 
