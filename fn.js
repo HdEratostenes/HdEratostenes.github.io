@@ -1,7 +1,7 @@
 function back(ind){
-    let rbtns = ["return0", "return1", "return2"];
-    let locations = ["institucionesGeografia", "demografia", "dinamicaPoblacional"];
-    let langbtns = ["lang1", "lang2", "lang3"];
+    let rbtns = ["return0", "return1", "return2", "return3"];
+    let locations = ["institucionesGeografia", "demografia", "dinamicaPoblacional", "geoInter"];
+    let langbtns = ["lang1", "lang2", "lang3", "lang4"];
     document.getElementById(langbtns[ind]).style.display = 'none';
     document.getElementById(rbtns[ind]).style.display = 'none';
     const t = document.getElementById(locations[ind]);
@@ -19,10 +19,10 @@ function back(ind){
 
 }
 function artselect(ind){
-    let locations = ["institucionesGeografia", "demografia", "dinamicaPoblacional"];
-    let langbtns = ["lang1", "lang2", "lang3"];
-    let rbtns = ["return0", "return1", "return2"];
-    let arts = ["art1", "art2", "art3"];
+    let locations = ["institucionesGeografia", "demografia", "dinamicaPoblacional", "geoInter"];
+    let langbtns = ["lang1", "lang2", "lang3", "lang4"];
+    let rbtns = ["return0", "return1", "return2", "return3"];
+    let arts = ["art1", "art2", "art3", "art4"];
 
     document.getElementById(rbtns[ind]).style.display = ('block');
     document.getElementById(locations[ind]).classList.add('active');
@@ -46,8 +46,8 @@ function artselect(ind){
 
     
 }
-let currentLanguages = ["spanish", "spanish", "spanish"];
-let locations = ["institucionesGeografia", "demografia", "dinamicaPoblacional"];
+let currentLanguages = ["spanish", "spanish", "spanish", "spanish"];
+let locations = ["institucionesGeografia", "demografia", "dinamicaPoblacional", "geoInter"];
 
 function changeLanguage(location) {
     const artPageVar = document.querySelector('.artpage');
@@ -96,14 +96,17 @@ function menufun(){
     const aboutBT = document.getElementById('aboutbutton');
     const articlesBT = document.getElementById('articlesbutton');
     const mediaBT = document.getElementById('mediabutton');
+    const contactBT = document.getElementById('contactobutton');
     if(getComputedStyle(aboutBT).visibility !== 'hidden'){
        hideAnimations(aboutBT, 30);
        hideAnimations(articlesBT, 5);
        hideAnimations(mediaBT, 15);
+       hideAnimations(contactBT, 15);
     }else{
         showAnimations(aboutBT, 30);
         showAnimations(articlesBT, 5);
         showAnimations(mediaBT, 15);
+        showAnimations(contactBT, 15);
     }
     function hideAnimations(buttonItem, speed){
         let pos = 0;
@@ -318,6 +321,15 @@ function instagramImg6(inst){
 
     }
 }
+
+
+
+
+
+
+
+
+
 
 
 
