@@ -173,14 +173,23 @@
 #lang2{
     display: none;
 }
+#lang6{
+    display: none;
+}
 #lang3{
     display: none;
 }
 #lang4{
     display: none;
 }
+#lang5{
+    display: none;
+}
 
 #return0{
+    display: none;
+}
+#return4{
     display: none;
 }
 #return1{
@@ -190,6 +199,12 @@
     display: none;
 }
 #return3{
+    display: none;
+}
+#return5{
+    display: none;
+}
+#return4{
     display: none;
 }
 .show{
@@ -686,6 +701,114 @@
     font-family: 'Nunito';
     text-align:center;
 }
+#articulo-koeppen h3{
+    font-size: 55px;
+    font-family: 'Nunito';
+    text-align:center;
+}
+#EN_articulo-koeppen h3{
+    font-size: 55px;
+    font-family: 'Nunito';
+    text-align:center;
+}
+#EN_articulo-koeppen p{
+    margin-left: 200px;
+    margin-right: 200px;
+    font-size: 25px;
+    text-align: left;
+    font-family: 'Nunito';
+}
+#EN_#articulo-koeppen ul{
+    margin-left: 200px;
+    margin-right: 200px;
+    font-size: 25px;
+    text-align: left;
+    font-family: 'Nunito';
+}
+#articulo-koeppen p{
+    margin-left: 200px;
+    margin-right: 200px;
+    font-size: 25px;
+    text-align: left;
+    font-family: 'Nunito';
+}
+#EN#articulo-koeppen h4{
+    font-family: 'Nunito';
+    font-size: 40px;
+    text-align: left;
+    margin-left: 200px;
+}
+#articulo-koeppen ul{
+    margin-left: 200px;
+    margin-right: 200px;
+    font-size: 25px;
+    text-align: left;
+    font-family: 'Nunito';
+}
+#articulo-koeppen h4{
+    font-family: 'Nunito';
+    font-size: 40px;
+    text-align: left;
+    margin-left: 200px;
+}
+#articulo-componentes-koeppen h4{
+    font-family: 'Nunito';
+    font-size: 40px;
+    text-align: left;
+    margin-left: 200px;
+}
+#articulo-componentes-koeppen p{
+    margin-left: 200px;
+    margin-right: 200px;
+    font-size: 25px;
+    text-align: left;
+    font-family: 'Nunito';
+}
+#articulo-componentes-koeppen ul{
+    margin-left: 200px;
+    margin-right: 200px;
+    font-size: 25px;
+    text-align: left;
+    font-family: 'Nunito';
+}
+#articulo-componentes-koeppen h3{
+    font-size: 55px;
+    text-align: center;
+    font-family: 'Nunito';
+}
+#EN_articulo-componentes-koeppen h4{
+    font-family: 'Nunito';
+    font-size: 40px;
+    text-align: left;
+    margin-left: 200px;
+}
+#EN_articulo-componentes-koeppen p{
+    margin-left: 200px;
+    margin-right: 200px;
+    font-size: 25px;
+    text-align: left;
+    font-family: 'Nunito';
+}
+#EN_articulo-componentes-koeppen ul{
+    margin-left: 200px;
+    margin-right: 200px;
+    font-size: 25px;
+    text-align: left;
+    font-family: 'Nunito';
+}
+#EN_articulo-componentes-koeppen li{
+    margin-left: 200px;
+    margin-right: 200px;
+    font-size: 25px;
+    text-align: left;
+    font-family: 'Nunito';
+}
+#EN_articulo-componentes-koeppen h3{
+    font-size: 55px;
+    text-align: center;
+    font-family: 'Nunito';
+}
+
 #institucionesGeografia p{
     margin-left: 200px;
     margin-right: 200px;

@@ -1,7 +1,7 @@
 function back(ind){
-    let rbtns = ["return0", "return1", "return2", "return3"];
-    let locations = ["institucionesGeografia", "demografia", "dinamicaPoblacional", "geoInter"];
-    let langbtns = ["lang1", "lang2", "lang3", "lang4"];
+    let rbtns = ["return0", "return1", "return2", "return3", "return4", "return5"];
+    let locations = ["institucionesGeografia", "demografia", "dinamicaPoblacional", "geoInter", "articulo-koeppen", "articulo-componentes-koeppen"];
+    let langbtns = ["lang1", "lang2", "lang3", "lang4", "lang5", "lang6"];
     document.getElementById(langbtns[ind]).style.display = 'none';
     document.getElementById(rbtns[ind]).style.display = 'none';
     const t = document.getElementById(locations[ind]);
@@ -19,10 +19,10 @@ function back(ind){
 
 }
 function artselect(ind){
-    let locations = ["institucionesGeografia", "demografia", "dinamicaPoblacional", "geoInter"];
-    let langbtns = ["lang1", "lang2", "lang3", "lang4"];
-    let rbtns = ["return0", "return1", "return2", "return3"];
-    let arts = ["art1", "art2", "art3", "art4"];
+    let locations = ["institucionesGeografia", "demografia", "dinamicaPoblacional", "geoInter", "articulo-koeppen", "articulo-componentes-koeppen"];
+    let langbtns = ["lang1", "lang2", "lang3", "lang4", "lang5", "lang6"];
+    let rbtns = ["return0", "return1", "return2", "return3", "return4", "return5"];
+    let arts = ["art1", "art2", "art3", "art4", "art5", "art6"];
 
     document.getElementById(rbtns[ind]).style.display = ('block');
     document.getElementById(locations[ind]).classList.add('active');
@@ -46,8 +46,8 @@ function artselect(ind){
 
     
 }
-let currentLanguages = ["spanish", "spanish", "spanish", "spanish"];
-let locations = ["institucionesGeografia", "demografia", "dinamicaPoblacional", "geoInter"];
+let currentLanguages = ["spanish", "spanish", "spanish", "spanish", "spanish", "spanish"];
+let locations = ["institucionesGeografia", "demografia", "dinamicaPoblacional", "geoInter", "articulo-koeppen", "articulo-componentes-koeppen"];
 
 function changeLanguage(location) {
     const artPageVar = document.querySelector('.artpage');
