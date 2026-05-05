@@ -170,6 +170,11 @@
     position: relative;
     align-items: right;
 }
+#lang7{
+    display: none;
+    position: relative;
+    align-items: right;
+}
 #lang2{
     display: none;
 }
@@ -183,6 +188,9 @@
     display: none;
 }
 #lang5{
+    display: none;
+}
+#lang6{
     display: none;
 }
 
@@ -205,6 +213,9 @@
     display: none;
 }
 #return4{
+    display: none;
+}
+#return6{
     display: none;
 }
 .show{
@@ -776,13 +787,49 @@
     text-align: center;
     font-family: 'Nunito';
 }
+#componentes_espacio h3{
+    font-size: 55px;
+    text-align: center;
+    font-family: 'Nunito';
+}
+#EN_componentes_espacio h3{
+    font-size: 55px;
+    text-align: center;
+    font-family: 'Nunito';
+}
 #EN_articulo-componentes-koeppen h4{
     font-family: 'Nunito';
     font-size: 40px;
     text-align: left;
     margin-left: 200px;
 }
+#componentes_espacio h4{
+    font-family: 'Nunito';
+    font-size: 40px;
+    text-align: left;
+    margin-left: 200px;
+}
+#EN_componentes_espacio h4{
+    font-family: 'Nunito';
+    font-size: 40px;
+    text-align: left;
+    margin-left: 200px;
+}
 #EN_articulo-componentes-koeppen p{
+    margin-left: 200px;
+    margin-right: 200px;
+    font-size: 25px;
+    text-align: left;
+    font-family: 'Nunito';
+}
+#componentes_espacio p{
+    margin-left: 200px;
+    margin-right: 200px;
+    font-size: 25px;
+    text-align: left;
+    font-family: 'Nunito';
+}
+#EN_componentes_espacio p{
     margin-left: 200px;
     margin-right: 200px;
     font-size: 25px;
@@ -1068,6 +1115,32 @@
   }
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
